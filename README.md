@@ -1,94 +1,95 @@
 # 🚀 Desafio Técnico – Programa Trainee Triggo.ai 2025
 
-Este projeto apresenta a solução desenvolvida por mim, **Juliana Karoline**, para o Desafio Técnico do Programa de Excelência em Engenharia de Dados e DataOps da Triggo.ai.
+Este repositório apresenta a solução desenvolvida por **Juliana Karoline Santos** para o **Desafio Técnico do Programa de Excelência em Engenharia de Dados e DataOps da Triggo.ai**.
 
 ---
 
 ## 📌 Objetivo
 
-Explorar e analisar dados reais de e-commerce brasileiro com foco em:
+Explorar e analisar dados reais do e-commerce brasileiro, com foco em:
+
 - Limpeza, modelagem e conexão entre tabelas
-- Análise de dados via Python e SQL
-- Visualizações interativas e insights de negócio
-- Soluções para problemas reais como retenção, atrasos e satisfação
+- Análises com Python e SQL
+- Criação de dashboards interativos e insights de negócio
+- Resolução de problemas como retenção, atrasos e satisfação do cliente
 
 ---
 
 ## 🗂️ Dados Utilizados
 
-O dataset público foi disponibilizado pelo Olist (via Kaggle) e inclui:
-- Pedidos
-- Clientes
-- Produtos
-- Vendedores
-- Avaliações
-- Pagamentos
-- Geolocalização
+O dataset utilizado foi o **Brazilian E-commerce Public Dataset by Olist**, disponível no Kaggle. Inclui:
+
+- Pedidos (`orders`)
+- Clientes (`customers`)
+- Produtos (`products`)
+- Vendedores (`sellers`)
+- Avaliações de clientes (`reviews`)
+- Pagamentos (`payments`)
+- Geolocalização (`geolocation`)
+- Tradução de categorias (`product_category_name_translation`)
 
 ---
 
 ## 📊 Entregas Técnicas
 
 ### ✅ 1. Preparação e Modelagem
-- Leitura e limpeza de dados
-- Tratamento de nulos, tipos e colunas
-- Criação de modelo relacional com `merge`
+- Leitura e inspeção dos arquivos CSV
+- Tratamento de valores ausentes e tipos de dados
+- Junção de tabelas (modelo relacional)
 
-### ✅ 2. Análise Exploratória (SQL + Python)
-- Volume de pedidos por mês
-- Tempo de entrega
-- Frete vs distância
+### ✅ 2. Análise Exploratória de Dados (SQL + Python)
+- Evolução do volume de pedidos por mês
+- Análise da distribuição de tempo de entrega
+- Relação entre frete e distância geográfica
 - Categorias com maior faturamento
-- Estados com maior ticket médio
+- Estados com maior valor médio por pedido
 
-### ✅ 3. Solução de Problemas
-- **Clientes recorrentes**
-- **Previsão de atraso**
-- **Segmentação via clustering**
-- **Fatores de satisfação**
+### ✅ 3. Solução de Problemas Reais
+- **Retenção de Clientes:** Identificação de clientes recorrentes
+- **Predição de Atrasos:** Criação de modelo de classificação simples
+- **Segmentação de Clientes:** Clusterização por comportamento
+- **Satisfação do Cliente:** Relação entre nota, entrega e produto
 
 ### ✅ 4. Dashboards Interativos
 
-| Visualização | Descrição |
-|--------------|-----------|
-| 📈 Evolução das Vendas | Pedidos por mês com filtro por estado e categoria |
-| 🗺️ Mapa de Calor | Distribuição de vendas por estado do Brasil |
-| 📦 Avaliação x Entrega | Boxplot da nota vs tempo de entrega |
-| 🧑‍💼 Análise de Vendedores | Volume, satisfação e eficiência por seller |
+| Visualização            | Descrição |
+|-------------------------|-----------|
+| 📈 **Evolução das Vendas** | Linha do tempo de pedidos por mês, com filtros por estado e categoria |
+| 🗺️ **Mapa de Calor**         | Distribuição dos pedidos por estado brasileiro |
+| 📦 **Nota vs Entrega**       | Boxplot relacionando tempo de entrega com nota de avaliação |
+| 🧑‍💼 **Análise de Vendedores** | Comparação entre volume de vendas, tempo médio de entrega e satisfação |
 
 ---
 
 ## 🧠 Principais Insights
 
-- Clientes satisfeitos recebem mais rápido
+- Clientes com nota 5 tendem a receber mais rápido
 - SP, RJ e MG concentram a maior parte das vendas
-- Categorias como **bed_bath_table** e **health_beauty** lideram faturamento
-- Top vendedores têm menor tempo médio de entrega e maior nota
+- Categorias como `bed_bath_table` e `health_beauty` lideram em faturamento
+- Vendedores mais bem avaliados têm maior volume e menor tempo médio de entrega
 
 ---
 
 ## 💡 Ferramentas e Bibliotecas
 
 - Python (Pandas, NumPy, Seaborn, Matplotlib, Plotly)
-- SQL (via pandasql)
+- SQL (via `pandasql`)
 - Google Colab
 
 ---
 
-## 👩‍💻 Autora
+## 👩‍💻 Sobre Mim
 
 **Juliana Karoline Santos**  
- Engenharia de Dados JR| Volvo do Brasil  
+Estagiária de Engenharia de Dados • Volvo do Brasil  
 📍 Araucária – PR  
-🔗 [LinkedIn]((https://www.linkedin.com/in/julianakarolinesantos/))
-✉️ juhkaroline10@gmail.com
+📧 juhkaroline10@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/julianakarolinesantos)
 
 ---
 
 ## 📝 Como Executar
 
-1. Clone o repositório
-2. Suba os arquivos no Google Colab
-3. Execute o notebook `desafio_triggo_ai.ipynb`
-
----
+1. Clone este repositório:
+```bash
+git clone https://github.com/julianakaroline111/Desafio-triggo-ai-2025_Juliana_Santos.git
